@@ -42,7 +42,7 @@ body
 .container-main
 {
     width: 35rem;
-    height: 60rem;
+    height: 62rem;
 
     margin: 0 auto 2vh;
     background-color: white;
@@ -89,14 +89,16 @@ body
 .container-plan-info
 {
     box-sizing: border-box;
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 2rem 0 4rem;
-    padding: 0 5rem;
+    margin: .5rem 0 2rem;
+    padding: 2rem;
     font-size: 1.5rem;
+    background-color: $very-pale-blue;
+    border-radius: 1rem;
 
     .plan-title-text
     {
@@ -143,7 +145,7 @@ body
 .container-footer
 {
     text-align: center;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 1.5rem;
 
     button
@@ -189,13 +191,8 @@ body
         button
         {
             font-size: 1.25rem;
-            padding: .85em 7.5em;
+            padding: .85em 8em;
             margin-bottom: 1rem;
         }
-    }
-
-    .container-plan-info
-    {
-        padding: 0 6.5rem;
     }
 }
